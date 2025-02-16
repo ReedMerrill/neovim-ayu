@@ -38,7 +38,7 @@ function colors.generate()
   colors.selection_inactive = '#122132'
   colors.selection_border = '#304357'
   colors.guide_active = '#3C414A'
-  colors.guide_normal = '#1E222A'
+  colors.guide_normal = '#BFBDB6'
 
   colors.vcs_added = '#7FD962'
   colors.vcs_modified = '#73B8FF'
