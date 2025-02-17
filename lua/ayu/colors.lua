@@ -24,7 +24,7 @@ local colors = {
 function colors.generate()
   colors.accent = pastel_green
   colors.bg = black
-  colors.fg = '#BFBDB6'
+  colors.fg = white
   colors.ui = '#565B66'
 
   colors.tag = blue
