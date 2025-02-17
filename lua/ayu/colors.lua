@@ -30,15 +30,15 @@ function colors.generate()
   colors.tag = blue
   colors.func = deep_blue
   colors.entity = pastel_green
-  colors.string = blue_green
-  colors.regexp = blue_green
+  colors.string = green
+  colors.regexp = green
   colors.markup = red
-  colors.keyword = peach
-  colors.special = peach
+  colors.keyword = blue_green
+  colors.special = blue_green
   colors.comment = gray
   colors.constant = pastel_green
   colors.operator = pastel_green
-  colors.error = '#D95757'
+  colors.error = red
   colors.lsp_parameter = peach
 
   colors.line = '#11151C'
