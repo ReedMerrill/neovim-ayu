@@ -1,8 +1,8 @@
 local peach = '#ff9980'
 local red = '#F07178'
 local orange = '#FF8F40'
-local yellow = '#FFB454'
-local light_yellow = '#ffea80'
+local yellow = '#ffdd00'
+local pastel_green = '#e8fca4'
 local green = '#AAD94C'
 local blue_green = '#95E6CB'
 local blue = '#59C2FF'
@@ -21,22 +21,22 @@ local colors = {
 
 --- Generate colors based `vim.o.background` and a variant.
 function colors.generate()
-  colors.accent = light_yellow
+  colors.accent = pastel_green
   colors.bg = black
   colors.fg = '#BFBDB6'
   colors.ui = '#565B66'
 
   colors.tag = blue
   colors.func = green
-  colors.entity = blue_green
-  colors.string = yellow
-  colors.regexp = yellow
+  colors.entity = pastel_green
+  colors.string = blue_green
+  colors.regexp = blue_green
   colors.markup = red
   colors.keyword = peach
   colors.special = peach
   colors.comment = gray
-  colors.constant = light_yellow
-  colors.operator = light_yellow
+  colors.constant = pastel_green
+  colors.operator = pastel_green
   colors.error = '#D95757'
   colors.lsp_parameter = peach
 
@@ -48,7 +48,7 @@ function colors.generate()
   colors.gutter_active = '#626975'
   colors.selection_bg = '#1B3A5B'
   colors.selection_inactive = '#122132'
-  colors.selection_border = '#304357'
+  colors.selection_border = dark_blue
   colors.guide_active = '#3C414A'
   colors.guide_normal = '#BFBDB6'
 
