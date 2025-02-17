@@ -6,7 +6,8 @@ local pastel_green = '#e8fca4'
 local green = '#AAD94C'
 local blue_green = '#95E6CB'
 local blue = '#59C2FF'
-local dark_blue = '#528afa'
+local deep_blue = '#528afa'
+local deep_blue = '#000dff'
 local gray = '#636A72'
 local white = '#FFFFFF'
 local black = '#000000'
@@ -27,7 +28,7 @@ function colors.generate()
   colors.ui = '#565B66'
 
   colors.tag = blue
-  colors.func = green
+  colors.func = deep_blue
   colors.entity = pastel_green
   colors.string = blue_green
   colors.regexp = blue_green
